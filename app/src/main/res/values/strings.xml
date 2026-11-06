@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">SOS Mesh</string>
+    <string name="nav_dashboard">SOS Dashboard</string>
+    <string name="nav_sos">SOS</string>
+    <string name="nav_messages">Chat</string>
+    <string name="nav_radar">Network Map</string>
+    <string name="nav_hardware">Nearby Devices</string>
+    <string name="nav_nearby">Nearby Devices</string>
+    <string name="nav_map">Network Map</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">TACTICAL MESH HUD</string>
+    <string name="status_mesh_active">MESH ACTIVE</string>
+    <string name="status_mesh_standby">STANDBY</string>
+    <string name="status_mesh_relay">RELAY NODE</string>
+    <string name="node_id_label">NODE ID</string>
+    <string name="active_radio_label">ACTIVE TRANSCEIVER</string>
+    <string name="nodes_in_reach">NODES IN REACH</string>
+    <string name="battery_label">BATTERY</string>
+    <string name="signal_quality_label">SIGNAL QUALITY</string>
+    <string name="recent_alerts">ACTIVE EMERGENCY BEACONS</string>
+    <string name="no_active_alerts">No active emergency alerts in mesh reach</string>
+    <string name="recent_packets">LIVE PACKET STREAM</string>
+    <string name="btn_broadcast_sos">BROADCAST SOS</string>
+    <string name="btn_compose_message">COMPOSE MESSAGE</string>
+
+    <!-- SOS Screen -->
+    <string name="sos_title">EMERGENCY SOS BEACON</string>
+    <string name="sos_subtitle">Hold button for 3 seconds to initiate mesh-wide high-priority distress broadcast</string>
+    <string name="sos_hazard_type">EMERGENCY CATEGORY</string>
+    <string name="hazard_medical">Medical Emergency</string>
+    <string name="hazard_lost">Lost / Trapped Person</string>
+    <string name="hazard_fire">Fire Hazard</string>
+    <string name="hazard_accident">Accident / Collision</string>
+    <string name="hazard_disaster">Natural Disaster</string>
+    <string name="hazard_security">Security / Hostility</string>
+    <string name="hazard_general">General Assistance</string>
+    <string name="severity_critical">CRITICAL</string>
+    <string name="severity_urgent">URGENT</string>
+    <string name="severity_advisory">ADVISORY</string>
+    <string name="sos_trigger_btn">TRANSMIT SOS BEACON</string>
+    <string name="sos_cancel_countdown">CANCEL TRANSMISSION (%1$ds)</string>
+    <string name="sos_active_banner">DISTRESS BEACON BROADCASTING</string>
+    <string name="sos_stop_beacon">DEACTIVATE SOS BEACON</string>
+    <string name="location_status_label">LOCATION TELEMETRY</string>
+    <string name="loc_gps_exact">Exact GPS Fix</string>
+    <string name="loc_manual">Manual Coordinates</string>
+    <string name="loc_estimated">Estimated via Neighbor</string>
+    <string name="loc_unknown">Location Unknown</string>
+
+    <!-- Messaging -->
+    <string name="messages_title">TACTICAL CHANNELS</string>
+    <string name="channel_broadcast">#all-mesh-broadcast</string>
+    <string name="channel_medical">#medical-response</string>
+    <string name="channel_rescue">#sar-operations</string>
+    <string name="send_message_hint">Type emergency message…</string>
+    <string name="send_btn">SEND</string>
+    <string name="msg_priority_normal">Normal</string>
+    <string name="msg_priority_high">High</string>
+    <string name="msg_priority_sos">SOS Alert</string>
+    <string name="msg_status_queued">QUEUED</string>
+    <string name="msg_status_transmitted">SENT</string>
+    <string name="msg_status_relayed">RELAYED</string>
+    <string name="msg_status_ack">ACKNOWLEDGED</string>
+    <string name="hops_label">Hops: %1$d</string>
+
+    <!-- Radar / Topology -->
+    <string name="radar_title">MESH RADAR &amp; TOPOLOGY</string>
+    <string name="direct_peers">DIRECT PEERS (1 HOP)</string>
+    <string name="multi_hop_nodes">MULTI-HOP NODES</string>
+    <string name="node_distance_approx">Distance: ~%1$d m</string>
+    <string name="last_seen_secs">%1$ds ago</string>
+    <string name="coordinate_editor_title">OFFLINE POSITION OVERRIDE</string>
+    <string name="latitude_hint">Latitude (e.g. 37.7749)</string>
+    <string name="longitude_hint">Longitude (e.g. -122.4194)</string>
+    <string name="save_coords">UPDATE COORDINATES</string>
+
+    <!-- Hardware / Transceiver -->
+    <string name="hardware_title">RADIO TRANSCEIVER &amp; TESTBENCH</string>
+    <string name="hardware_connected">CONNECTED</string>
+    <string name="hardware_disconnected">DISCONNECTED</string>
+    <string name="scan_ble_devices">SCAN BLE TRANSCEIVERS</string>
+    <string name="radio_model_esp32">ESP32 + SX1262 LoRa</string>
+    <string name="radio_model_meshtastic">Meshtastic BLE Node</string>
+    <string name="radio_model_direct_ble">On-Device BLE Mesh</string>
+    <string name="radio_model_virtual">Virtual 3-Node Testbench</string>
+    <string name="freq_preset_label">REGIONAL FREQUENCY PLAN</string>
+    <string name="freq_us915">US915 (902–928 MHz)</string>
+    <string name="freq_eu868">EU868 (863–870 MHz)</string>
+    <string name="freq_as923">AS923 (920–925 MHz)</string>
+    <string name="freq_433">433 MHz ISM Band</string>
+    <string name="testbench_header">3-DEVICE RELAY TESTBENCH (IN-APP)</string>
+    <string name="testbench_desc">Simulate Node A (Origin), Node B (Relay), and Node C (Recipient) to test multi-hop packet routing without hardware.</string>
+    <string name="testbench_btn_send_hop">INJECT 3-HOP TEST PACKET</string>
+    <string name="testbench_btn_send_sos">INJECT VIRTUAL SOS ALERT</string>
+    <string name="testbench_drop_packet_toggle">Simulate 25% Packet Loss</string>
+
+    <!-- ESP32 Companion Sketch Info -->
+    <string name="esp32_firmware_title">ESP32 + SX1262 COMPANION GUIDE</string>
+    <string name="esp32_firmware_desc">Connect an ESP32 Heltec V3, T-Beam, or custom SX1262 board via BLE. Serial service UUID: 6E400001-B5A3-F393-E0A9-E50E24DCCA9E</string>
+
+    <!-- Diagnostics & General -->
+    <string name="diagnostics_title">DIAGNOSTICS &amp; SECURITY</string>
+    <string name="sec_cipher">CIPHER: AES-GCM-256 (E2E)</string>
+    <string name="sec_integrity">INTEGRITY: HMAC-SHA256</string>
+    <string name="sec_replay">REPLAY PROTECTION: Monotonic Bloom Window</string>
+    <string name="storage_persisted">ROOM DATABASE: PERSISTENT OFFLINE</string>
+    <string name="toggle_language">العربية</string>
+</resources>

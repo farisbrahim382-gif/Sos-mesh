@@ -1,0 +1,6 @@
+{
+  "summary": "Comprehensive architecture, user experience, and implementation plan for SOS MESH — Off-Grid Emergency Communication & Mesh Networking System, featuring a unified transport layer (BLE ESP32/Meshtastic, Wi-Fi Direct, and Virtual Testbench), Room offline-first database, emergency SOS priority broadcasting, and tactical dark HUD UI.",
+  "updatedAt": "2026-11-06T12:55:57.789888096Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

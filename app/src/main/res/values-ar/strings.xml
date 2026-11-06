@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">شبكة الطوارئ SOS</string>
+    <string name="nav_dashboard">لوحة الطوارئ</string>
+    <string name="nav_sos">استغاثة SOS</string>
+    <string name="nav_messages">المحادثة</string>
+    <string name="nav_radar">خريطة الشبكة</string>
+    <string name="nav_hardware">الأجهزة المجاورة</string>
+    <string name="nav_nearby">الأجهزة المجاورة</string>
+    <string name="nav_map">خريطة الشبكة</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">لوحة شبكة الطوارئ التكتيكية</string>
+    <string name="status_mesh_active">الشبكة نشطة</string>
+    <string name="status_mesh_standby">وضع الاستعداد</string>
+    <string name="status_mesh_relay">عقدة إعادة توجيه</string>
+    <string name="node_id_label">معرف العقدة</string>
+    <string name="active_radio_label">جهاز الإرسال النشط</string>
+    <string name="nodes_in_reach">العقد المتاحة</string>
+    <string name="battery_label">البطارية</string>
+    <string name="signal_quality_label">جودة الإشارة</string>
+    <string name="recent_alerts">إشارات الاستغاثة النشطة</string>
+    <string name="no_active_alerts">لا توجد إشارات استغاثة في نطاق الشبكة</string>
+    <string name="recent_packets">حزم البيانات المباشرة</string>
+    <string name="btn_broadcast_sos">بث نداء استغاثة</string>
+    <string name="btn_compose_message">كتابة رسالة</string>
+
+    <!-- SOS Screen -->
+    <string name="sos_title">منظومة استغاثة الطوارئ SOS</string>
+    <string name="sos_subtitle">اضغط مطولاً لمدة 3 ثوانٍ لبث نداء استغاثة عالي الأولوية عبر الشبكة</string>
+    <string name="sos_hazard_type">نوع حالة الطوارئ</string>
+    <string name="hazard_medical">حالة طبية طارئة</string>
+    <string name="hazard_lost">شخص مفقود / محاصر</string>
+    <string name="hazard_fire">خطر حريق</string>
+    <string name="hazard_accident">حادث أو تصادم</string>
+    <string name="hazard_disaster">كارثة طبيعية</string>
+    <string name="hazard_security">خطر أمني</string>
+    <string name="hazard_general">طلب مساعدة عامة</string>
+    <string name="severity_critical">حرج للغاية</string>
+    <string name="severity_urgent">عاجل</string>
+    <string name="severity_advisory">تنبيهي</string>
+    <string name="sos_trigger_btn">إرسال نداء الاستغاثة</string>
+    <string name="sos_cancel_countdown">إلغاء الإرسال (%1$d ث)</string>
+    <string name="sos_active_banner">نداء الاستغاثة قيد البث المستمر</string>
+    <string name="sos_stop_beacon">إيقاف نداء الاستغاثة</string>
+    <string name="location_status_label">بيانات الموقع الجغرافي</string>
+    <string name="loc_gps_exact">إحداثيات GPS دقيقة</string>
+    <string name="loc_manual">إحداثيات يدوية</string>
+    <string name="loc_estimated">موقع تقديري عبر الجوار</string>
+    <string name="loc_unknown">الموقع غير معروف</string>
+
+    <!-- Messaging -->
+    <string name="messages_title">القنوات التكتيكية</string>
+    <string name="channel_broadcast">#بث-عام-للشبكة</string>
+    <string name="channel_medical">#الإسعاف-والإنقاذ</string>
+    <string name="channel_rescue">#فرق-البحث-والإنقاذ</string>
+    <string name="send_message_hint">اكتب رسالة طوارئ…</string>
+    <string name="send_btn">إرسال</string>
+    <string name="msg_priority_normal">عادي</string>
+    <string name="msg_priority_high">عالي</string>
+    <string name="msg_priority_sos">نداء SOS</string>
+    <string name="msg_status_queued">في الانتظار</string>
+    <string name="msg_status_transmitted">تم الإرسال</string>
+    <string name="msg_status_relayed">تمت إعادة التوجيه</string>
+    <string name="msg_status_ack">تم الاستلام وتأكيد الوصول</string>
+    <string name="hops_label">القفزات: %1$d</string>
+
+    <!-- Radar / Topology -->
+    <string name="radar_title">رادار الشبكة والتضاريس</string>
+    <string name="direct_peers">العقد المباشرة (قفزة واحدة)</string>
+    <string name="multi_hop_nodes">العقد متعددة القفزات</string>
+    <string name="node_distance_approx">المسافة التقديرية: ~%1$d م</string>
+    <string name="last_seen_secs">منذ %1$d ثانية</string>
+    <string name="coordinate_editor_title">تحديث الإحداثيات اليدوية</string>
+    <string name="latitude_hint">خط العرض (مثال: 24.7136)</string>
+    <string name="longitude_hint">خط الطول (مثال: 46.6753)</string>
+    <string name="save_coords">حفظ الإحداثيات</string>
+
+    <!-- Hardware / Transceiver -->
+    <string name="hardware_title">أجهزة الراديو ومنصة الاختبار</string>
+    <string name="hardware_connected">متصل</string>
+    <string name="hardware_disconnected">غير متصل</string>
+    <string name="scan_ble_devices">البحث عن أجهزة BLE</string>
+    <string name="radio_model_esp32">ESP32 + SX1262 LoRa</string>
+    <string name="radio_model_meshtastic">جهاز Meshtastic BLE</string>
+    <string name="radio_model_direct_ble">شبكة BLE محلية للجهاز</string>
+    <string name="radio_model_virtual">منصة اختبار افتراضية (3 عقد)</string>
+    <string name="freq_preset_label">خطة التردد الإقليمية</string>
+    <string name="freq_us915">US915 (902–928 ميغاهرتز)</string>
+    <string name="freq_eu868">EU868 (863–870 ميغاهرتز)</string>
+    <string name="freq_as923">AS923 (920–925 ميغاهرتز)</string>
+    <string name="freq_433">نطاق 433 ميغاهرتز ISM</string>
+    <string name="testbench_header">منصة اختبار ترحيل من 3 عقد (داخل التطبيق)</string>
+    <string name="testbench_desc">محاكاة العقدة أ (المُرسِل)، والعقدة ب (المُرَحِّل)، والعقدة ج (المُستلِم) لاختبار توجيه القفزات المتعددة دون عتاد خارجي.</string>
+    <string name="testbench_btn_send_hop">حقن حزمة اختبار عبر 3 قفزات</string>
+    <string name="testbench_btn_send_sos">حقن إنذار استغاثة افتراضي</string>
+    <string name="testbench_drop_packet_toggle">محاكاة فقدان 25% من الحزم</string>
+
+    <!-- ESP32 Companion Sketch Info -->
+    <string name="esp32_firmware_title">دليل برمجة شريحة ESP32 + SX1262</string>
+    <string name="esp32_firmware_desc">قم بربط شريحة Heltec V3 أو T-Beam عبر البلوتوث. معرف خدمة المنفذ التسلسلي: 6E400001-B5A3-F393-E0A9-E50E24DCCA9E</string>
+
+    <!-- Diagnostics & General -->
+    <string name="diagnostics_title">الأمان والتشخيص</string>
+    <string name="sec_cipher">التشفير: AES-GCM-256 (طرف لطرف)</string>
+    <string name="sec_integrity">سلامة البيانات: HMAC-SHA256</string>
+    <string name="sec_replay">حماية إعادة البث: نافذة بلوم المتزايدة</string>
+    <string name="storage_persisted">قاعدة بيانات روم: تشغيل غير متصل دائم</string>
+    <string name="toggle_language">English</string>
+</resources>

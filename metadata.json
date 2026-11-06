@@ -1,0 +1,6 @@
+{
+  "name": "SOS Mesh",
+  "description": "Decentralized offline emergency communication and mesh networking platform supporting LoRa, BLE, Wi-Fi Direct, and priority SOS alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
